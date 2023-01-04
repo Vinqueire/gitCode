@@ -6,6 +6,12 @@ header {
   text-align: center;
   font-size: 75px;
 }
+#textContainer {
+  text-align: center;
+  font-size: 40px;
+  color: greenyellow;
+  padding-top: 20px;
+}
 .buttonContainer {
   height: 40px;
   width: 132px;
