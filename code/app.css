@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(77, 73, 73);
+}
+
+header {
+  text-align: center;
+  font-size: 75px;
+}
+.buttonContainer {
+  height: 40px;
+  width: 132px;
+  margin: auto;
+  padding-top: 20px;
+}
+.click {
+  border: solid rgb(75, 6, 131) 2px;
+  border-radius: 15px;
+  font-size: 30px;
+  color: greenyellow;
+  text-align: center;
+  background-color: rgb(43, 48, 43);
+}
+.linia {
+  background-color: black;
+  height: 2px;
+}
