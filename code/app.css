@@ -3,14 +3,35 @@ body {
 }
 
 header {
+  -webkit-text-stroke: 1.2px #00ff9f;
+  font-style: italic;
+  font-family: serif;
   text-align: center;
   font-size: 75px;
 }
+#liniatxt1 {
+  color: #00b8ff;
+  font-size: 65px;
+}
+#liniatxt2 {
+  color: #001eff;
+  font-size: 55px;
+}
+#liniatxt3 {
+  color: #bd00ff;
+  font-size: 45px;
+}
 #textContainer {
+  position: absolute;
   text-align: center;
+  left: 50%;
+  transform: translate(-50%);
   font-size: 40px;
   color: greenyellow;
   padding-top: 20px;
+}
+#zdj1 {
+  margin-top: 15px;
 }
 .buttonContainer {
   height: 40px;
