@@ -9,7 +9,7 @@ int main(void)
     {
         for (j = 1; j <= i; j++)
         {
-            printf("%c",j + 64);
+            printf("%c",i + 64);
         }
         printf("\n");
     }
