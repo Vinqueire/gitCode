@@ -10,18 +10,17 @@ int main(void)
         {
             if (i > 1 && i < 5)
             {
-     
-                if (j> 1 && j < 5)
+                if (j > 1 && j < 5)
                 {
                     printf(" ");
-                } 
+                }
                 else
-                    printf("%d",j);
-            } else printf("%d",j);
+                printf("%d",j); 
+            }else printf("%d",j);
+            
         }
         printf("\n");
     }
-    
 }
 
 // Damn I actually figured that out myself
