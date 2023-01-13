@@ -6,40 +6,19 @@ int main(void)
 
     for (i = 1; i <= 5; i++)
     {
-        for (j = 1; j <=i; j++)
+        for (j = 1; j <= 5; j++)
         {
-            if (i == 1 || i == 2 || i ==5)
+            if (j == 1 || i == 5 || j == i)
             {
                 printf("%d",j);
-            }
-            
-            if (i == 3)
+            } else
             {
-                if (j == 2)
-                {
-                    printf(" ");
-                }
-                else 
-                {
-                    printf("%d",j);
-                }
-            }        
-            
-            if (i == 4)
-            {
-                if (j == 2 || j == 3)
-                {
-                    printf(" ");
-                } 
-                else
-                {
-                    printf("%d",j);
-                }
+                printf(" ");
             }
-
         }
         printf("\n");
     }
 }
+
 
 // Damn I actually figured that out myself, empty triangle
