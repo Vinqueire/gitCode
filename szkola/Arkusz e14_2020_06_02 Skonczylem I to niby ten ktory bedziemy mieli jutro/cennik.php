@@ -1,4 +1,28 @@
+<?php
+    $wynik ="";
+    $polaczenie = mysqli_connect('localhost','root','','wynajem');
 
+    if  ($polaczenie)
+    {
+        $zapytanie="SELECT id, nazwa, cena FROM POKOJE";
+        $answer= mysqli_query($polaczenie, $zapytanie);
+
+        while ($rec = mysqli_fetch_row($answer) )
+        {
+            $wynik .= "<tr>
+            <td>$rec[0]</td> 
+            <td>$rec[1]</td> 
+            <td>$rec[2]</td>
+            </tr>";
+        }
+
+    }
+    else
+    {
+        $wynik ="Nie ma poalczenia";
+    }
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +44,6 @@
     
     <section id="menu2">
         <a href="cennik.php">CENNIK</a>
-        <!-- SKRYPT php -->
     </section>
     
     <section id="menu3">
@@ -37,23 +60,11 @@
 
     <section id="srodkowy">
     <h1>Cennik</h1>
-    <table>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
+    <div>
+    <table id="yes">
+    <?=$wynik;?>
     </table>
+    </div>    
     </section>
 
     <section id="prawy">

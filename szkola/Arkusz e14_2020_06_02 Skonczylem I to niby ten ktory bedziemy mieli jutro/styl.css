@@ -31,7 +31,6 @@ body
     height: 40px;
     padding-top: 10px;
     width: 33%;
-    
 }
 
 #menu2
@@ -52,10 +51,10 @@ body
 
 #srodkowy
 {
-     background-color: #E0E9F1;
-     width: 34%;
-     height: 400px;
-     padding-top: 100px;
+    background-color: #E0E9F1;
+    width: 34%;
+    height: 400px;
+    padding-top: 100px;
 }
 
 footer
@@ -76,12 +75,11 @@ a
     text-decoration: none;
 }
 
-#lewy,#srodkowy,#prawy
-{
-    display: inline;
-}
-
 table,td
 {
-    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid;
 }
+
